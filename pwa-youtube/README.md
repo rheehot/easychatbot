@@ -38,4 +38,6 @@ Your application is already set up to be tested via [web-component-tester](https
 
 >bower install --save PolymerElements/app-layout PolymerElements/app-route PolymerElements/iron-pa>polymer serve --openges PolymerElements/iron-flex-layout
 
+>bower install --save PolymerElements/iron-ajax PolymerElements/iron-list PolymerElements/iron-scroll-threshold
+
 >bower install --save GoogleWebComponents/google-youtube
