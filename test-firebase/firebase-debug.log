@@ -1,0 +1,29 @@
+[debug] [2018-08-18T12:48:50.609Z] ----------------------------------------------------------------------
+[debug] [2018-08-18T12:48:50.617Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rheeh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-18T12:48:50.617Z] CLI Version:   4.1.2
+[debug] [2018-08-18T12:48:50.617Z] Platform:      win32
+[debug] [2018-08-18T12:48:50.617Z] Node Version:  v8.11.3
+[debug] [2018-08-18T12:48:50.618Z] Time:          Sat Aug 18 2018 21:48:50 GMT+0900 (대한민국 표준시)
+[debug] [2018-08-18T12:48:50.618Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-18T12:48:50.633Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-18T12:48:50.634Z] > authorizing via signed-in user
+[debug] [2018-08-18T12:48:50.636Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-18T12:48:50.636Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-18T12:48:51.189Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-18T12:48:51.220Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chatbot-project-82d05  
+ 
+[debug] [2018-08-18T12:48:52.982Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-18T12:48:52.983Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chatbot-project-82d05  
+ 
+[debug] [2018-08-18T12:48:54.474Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\study\chatbot_study\easychatbot\test-firebase'...
+[info] 
+[debug] [2018-08-18T12:48:54.490Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/421458185993/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-18T12:48:55.407Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
